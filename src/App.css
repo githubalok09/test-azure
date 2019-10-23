@@ -20,3 +20,42 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.drag-drop, .drag-drop img{    
+  width: 100px;
+  height: 100px;
+}
+.food-container > div{  
+  background-size: contain;  
+  background-repeat: no-repeat;
+  background-color: transparent;
+  
+}
+.glass > div{
+  background: url("/images/glass.png") no-repeat transparent;
+  background-size: contain;  
+}
+.plate > div{
+  background: url("/images/plate.png") no-repeat transparent;
+  background-size: contain;  
+}
+/* .no-layout .gblcbk
+{
+  border: none;
+} */
+/* .no-layout .gblcbk .square,
+.no-layout .gblcbk .resizable-handler,
+.no-layout .gblcbk .rotate
+{
+  display: none;
+} */
+.food-container > div{
+  position: absolute;
+}
+.single-resizer{
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}

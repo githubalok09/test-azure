@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.21",
+    "@types/react-grid-layout": "^0.16.7",
+    "git": "^0.1.5",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-grid-layout": "^0.16.6",
+    "react-jss": "^10.0.0",
+    "react-resizable-rotatable-draggable": "^0.2.0",
+    "react-scripts": "3.2.0",
+    "remote": "^0.2.6",
+    "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
