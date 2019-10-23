@@ -4,7 +4,7 @@ function FoodPresentation() {
 	const [items, setItems] = useState([]);
 	
 	function RetrieveData(){
-		fetch("http://alokwebapi.azurewebsites.net/api/values") //localhost:53273/api/values
+		fetch("https://alokwebapi.azurewebsites.net/api/values") //localhost:53273/api/values
 			.then(res => res.json())
 			.then((result) => {
 				console.log(result);
